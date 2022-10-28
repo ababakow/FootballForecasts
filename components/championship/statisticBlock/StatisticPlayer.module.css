@@ -1,0 +1,40 @@
+.row,
+.user-row {
+  font-size: 0.8rem;
+}
+.row td,
+.user-row td {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.place,
+.score {
+  padding-left: 0.5rem;
+  border: 1px solid rgb(237, 237, 237);
+  border-right: none;
+}
+.place-change,
+.score-change {
+  padding-right: 0.5rem;
+  border: 1px solid rgb(237, 237, 237);
+  border-left: none;
+  font-size: 0.5rem;
+  color: rgb(109, 109, 109);
+}
+.username {
+  padding: 0 0.5rem;
+  border: 1px solid rgb(237, 237, 237);
+}
+
+.increase {
+  color: green;
+}
+.decrease {
+  color: red;
+}
+
+.user-row {
+  font-weight: 800;
+  background-color: rgb(217, 255, 212);
+}

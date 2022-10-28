@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  flex-wrap: nowrap;
+  border-top: 1px solid rgb(237, 237, 237);
+  padding-left: 5%;
+  /* padding-left: 0.5rem; */
+  padding-right: 5%;
+  /* padding-right: 0.5rem; */
+  align-items: center;
+  justify-content: space-between;
+}
+.card:nth-last-of-type(1) {
+  border-bottom: 1px solid rgb(237, 237, 237);
+}
+.card p {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

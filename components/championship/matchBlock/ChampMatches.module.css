@@ -1,0 +1,17 @@
+.matchlist-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matchlist-header div {
+  padding: 0.5rem 2rem;
+}
+
+.nav {
+  color: rgb(146, 146, 146);
+}
+.matchlist-header div:hover .nav,
+.matchlist-header div:active .nav {
+  color: rgb(0, 0, 0);
+}

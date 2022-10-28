@@ -1,0 +1,10 @@
+.section {
+  margin-top: 1rem;
+  min-height: 50vh;
+  width: 40%;
+  align-self: flex-start;
+  border-radius: 3px;
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  margin: 0;
+}

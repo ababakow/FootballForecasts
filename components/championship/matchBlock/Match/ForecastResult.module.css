@@ -1,0 +1,46 @@
+.forecast {
+  display: flex;
+  align-items: center;
+}
+.forecast div,
+.forecast p {
+  display: flex;
+  align-items: center;
+}
+.home,
+.guest {
+  width: calc(2rem + 2px);
+  height: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.home {
+  justify-content: flex-end;
+  margin-right: 2px;
+}
+.guest {
+  justify-content: flex-start;
+  margin-left: 2px;
+}
+.home p,
+.guest p,
+.pts p {
+  font-size: 0.8rem;
+}
+
+.pts {
+  justify-content: center;
+  font-size: 0.8rem;
+  width: calc(2rem + 2px);
+  height: 1.2rem;
+  margin-left: 0.5rem;
+  padding: 0;
+  font-weight: 800;
+}
+
+.win {
+  color: rgb(100, 200, 0);
+}
+.lose {
+  color: red;
+}

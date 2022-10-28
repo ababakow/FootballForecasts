@@ -1,0 +1,49 @@
+.forecast {
+  display: flex;
+  align-items: center;
+  /* font-size: 0.7rem; */
+}
+
+.forecast input {
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 2px;
+  width: 2rem;
+  height: 1.2rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.forecast input::-webkit-outer-spin-button,
+.forecast input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.forecast input:placeholder-shown {
+  font-size: 0.5rem;
+}
+.forecast input:nth-of-type(1) {
+  margin-right: 2px;
+}
+.forecast input:nth-last-of-type(1) {
+  margin-left: 2px;
+}
+
+.forecast button {
+  width: 2rem;
+  height: 1.2rem;
+  margin-left: 0.5rem;
+  padding: 0;
+}
+.forecast button {
+  font-size: 0.7rem;
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: 2px;
+  background-color: rgb(100, 200, 0);
+  transition: 150ms;
+}
+.forecast button:hover,
+.forecast button:active {
+  background-color: rgba(100, 200, 0, 0.22);
+  font-weight: 800;
+  border: 1px solid rgb(100, 200, 0);
+}

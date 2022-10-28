@@ -1,0 +1,32 @@
+.match {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.home {
+  min-width: 40%;
+  text-align: end;
+  /* padding-left: 0.5rem;
+  padding-right: 0.5rem; */
+}
+.guest {
+  min-width: 40%;
+  text-align: start;
+  /* padding-left: 0.5rem;
+  padding-right: 0.5rem; */
+}
+.homeScore {
+  text-align: end;
+  width: 1rem;
+  margin-left: 2px;
+}
+.guestScore {
+  text-align: start;
+  width: 1rem;
+  margin-right: 2px;
+}
+.homeScore p,
+.guestScore p {
+  font-weight: 800;
+}

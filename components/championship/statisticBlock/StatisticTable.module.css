@@ -1,0 +1,8 @@
+.table-block {
+  display: flex;
+  justify-content: center;
+}
+
+.table-block table {
+  border-collapse: collapse;
+}

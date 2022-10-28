@@ -1,0 +1,8 @@
+.main {
+  width: 100%;
+  height: calc(100vh - 3rem);
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}

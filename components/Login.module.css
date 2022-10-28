@@ -1,0 +1,49 @@
+.login {
+  margin-bottom: 20%;
+  text-align: center;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+.login input {
+  background-color: white;
+  border: 1px solid white;
+  width: 15rem;
+  margin: 0.5rem 0;
+}
+.login input,
+.login button {
+  text-align: center;
+  border-radius: 3px;
+  height: 1.5rem;
+}
+.login button {
+  margin: 0.5rem auto;
+  transition: 150ms;
+}
+.login button.submit {
+  width: 10rem;
+  background-color: rgb(100, 200, 0);
+  border: 1px solid rgb(100, 200, 0);
+}
+.login button.submit:hover,
+.login button.submit:active {
+  background-color: rgb(180, 223, 137);
+  border: 1px solid rgb(180, 223, 137);
+  font-weight: 800;
+  cursor: pointer;
+}
+.login button.registration {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+}
+.login button.registration:hover,
+.login button.registration:active {
+  color: rgb(100, 200, 0);
+  text-decoration: underline;
+  cursor: pointer;
+  /* border: 1px solid rgb(100, 200, 0); */
+}

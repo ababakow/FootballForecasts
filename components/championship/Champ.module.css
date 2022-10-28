@@ -1,0 +1,15 @@
+.champ {
+  width: 100%;
+}
+
+.header {
+  margin: 0;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
